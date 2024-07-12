@@ -1,0 +1,61 @@
+.topBar{
+    background-color: #66BF84;
+}
+
+.topBar-content{
+    align-items: center;
+    display: flex;
+    padding: 8px;
+}
+
+.promo{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 900;
+    margin-bottom: 0;
+
+}
+
+.promo span{
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+.counters , .counter{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    
+}
+
+.counter span,.counter p {
+    font-size: 14px;
+    color: white;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.counter span {
+    border: 0.91px solid #FFFFFF;
+    padding: 1px 20px;
+    border-radius: 12px;
+}
+
+.counter p{
+    margin-left: 5px;
+    margin-bottom: 0;
+}
+
+.promo-btn{
+    background-color: #ffff;
+    border-radius: 20px;
+    border: 1px solid #ffff;
+    font-size: 14px;
+    font-weight: 400;
+    color: #66BF84;
+    padding: 1px 20px;
+    margin-left: 4%;
+}
+

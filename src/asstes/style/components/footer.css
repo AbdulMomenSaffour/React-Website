@@ -1,0 +1,45 @@
+
+.footer{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+
+
+.links-title{
+    font-size: 24px;
+    font-style: normal;
+    font-family: "Abril Fatface";
+    font-weight: 400;
+    margin-bottom: 15px;
+    text-align: start;
+}
+
+.footer-links{
+    list-style: none;
+    display: block;
+}
+
+.footer-links a{
+   display: block;
+   text-decoration: none;
+   text-align: start; 
+   font-size: 16px;
+   color: #000000;
+   margin-bottom: 10px;
+   transition: all 0.50s ease ;
+}
+
+.footer-links a:hover{
+    
+    color: #A1A1A1;
+}
+
+.custom-links-title{
+    margin-top: 15px;
+}
+
+.footer-img{
+    width: 100%;
+    height: fit-content;
+}

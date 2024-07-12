@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Caveat:wght@400;500;600;700&family=El+Messiri:wght@400;500;600;700&family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800;6..12,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Caveat:wght@400;500;600;700&family=El+Messiri:wght@400;500;600;700&family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800;6..12,900&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+
+
+.owl-carousel .owl-stage {
+
+    display: flex; 
+    
+}
+
+.card-preview{
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px 0px #DBDBDB40;
+    border: 1px solid #DBDBDB40;
+    padding: 20px 10px;
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.section-title{
+    font-family: 'Abril Fatface';
+    font-size: 30px;
+    font-weight: 400;
+    color: black;
+    margin: 40px auto;
+}
+
+.pro-img{
+    width: 100%;
+    height: 10vw;
+    object-fit: contain;
+}
+
+.pro-name{
+    font-family: 'Roboto', sans-serif;
+    line-height: 18px;
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+ 
+}
+
+
+.new-price{
+    display: flex;
+    margin: 0px auto;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.buy{
+    border: 1px solid #228F47;  
+    background-color: inherit;
+    color: #228F47;
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: 'Roboto';
+    padding: 2px 20px;
+    border-radius: 4px;
+}
+
+
+.pro-kind{
+    font-size: 10px;
+    align-self: center;
+    color: #A1A1A1;
+    
+}
+
+.pro-price{
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.discount{
+    color: white;
+    background-color: #66BF84;
+    font-size: 12px;
+    padding: 3px 12px;
+    border-radius: 10px;
+    margin-bottom: 0;
+}
+
+
+.previous-price{
+    font-size: 14px;
+    font-weight: 500;
+    color: #D9D9D9;
+    margin-bottom: 0;
+    margin-left: 8px;
+    text-decoration: line-through;
+}

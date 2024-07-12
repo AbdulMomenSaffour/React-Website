@@ -1,0 +1,36 @@
+
+.green , .yellow{
+color: white;
+}
+
+.yellow>h4{
+    font-size: 32px;
+}
+
+
+
+.green{
+    background-color: #228F47;
+    border: 1px solid #228F47;
+    padding: 25px 20px 20px;
+    
+}
+.yellow{
+    background-color: #EBC351;
+    border: 1px solid #EBC351;
+}
+.kupon-section{
+    display: flex;
+    padding-left: 40px;
+    width: 100%;
+    overflow: hidden;
+    overflow-x: scroll;
+    padding: 10px 0 10px 40px;
+}
+.kupon-content-card{
+    display: flex;
+    margin-right: 20px;
+    border-radius: 13px;
+    min-width: 30vw;
+    box-shadow: 0px 4px 4px 0px #BDBDBD40;
+}

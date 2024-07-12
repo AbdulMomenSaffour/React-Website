@@ -1,0 +1,95 @@
+.navbar{
+    box-shadow: 0px 4px 4px 0px #E7E7E740;  
+    align-items: center;
+    justify-content: space-between;
+    display: flex; 
+  }
+  
+  .logo{
+    font-family: 'Caveat';
+    font-weight: 700;
+    color: #66BF84;
+    font-size: 54px;
+    cursor: pointer;
+  }
+  
+  .vv{
+    display: flex;
+  }
+  
+  .links{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    list-style: none;
+  }
+  
+  .links>li>a{
+    color: rgb(60, 184, 3);
+    font-size: 24px;
+    margin-left: 20px;
+  }
+  
+  .searchBar{
+    width: 510px;
+    padding: 0px 20px;
+    border: 1px solid #6C6C6C;  
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+  }
+
+  .searchBar input{
+    border: none;
+    margin-left: 10px;
+  }
+
+  .search-icon{
+    color: #A1A1A1;
+  }
+
+  .memberInfo{
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 4px 4px 0px #DADADA40;
+    border-radius: 25px;
+    padding: 5px 20px;
+  }
+  .personalImg{
+    width: 36px;
+    height: 36px;
+    border-radius: 50px ;
+    margin-left: 10px;
+  }
+  
+  .personalInfo{
+    align-items: center;
+  }
+  
+  
+  .personalInfo h4{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 0;
+    
+  }
+  
+
+  .membership{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+
+  .membership p{
+    margin-bottom: 0;
+    font-size: 12px;
+    color: #EBC351;
+    
+  }
+
+  .membership img{
+    width: 24px;
+    height: 24px;
+    margin-left: 4px;
+  }
